@@ -5,35 +5,51 @@
         *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9]"
         class="list-item d-flex justify-content-between p-3 my-3"
       >
-        <div>
-          86
-        </div>
-        <div>
-          <div>Migration of suggestion from different platform</div>
-          <div>text body</div>
-          <div class="d-flex">
-            <div>
-              2 comments
+        <div class="d-flex mr-4">
+          <div
+            class="mr-4 d-flex flex-column align-items-center justify-content-start"
+          >
+            <em class="material-icons arrow">play_arrow</em>
+            <span>86</span>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="post-header">
+              Migration of suggestion from different platform
             </div>
-            <div>
-              feature requests
+            <div class="post-content pt-1 pb-3">
+              Incase someone wants to migrate this tool, it should be possible
+              to migrate this data
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="post-size pr-3">
+                2 COMMENTS
+              </div>
+              <div class="d-flex align-items-center justify-content-center">
+                <em class="material-icons post-size">thumb_up</em>
+                <span class="post-size px-2 feq">FEATURE REQUESTS</span>
+              </div>
             </div>
           </div>
         </div>
         <div>
-          In Progress
+          <span class="status p-2">In Progress</span>
         </div>
       </div>
     </div>
     <div>
-      <div class="my-3 list-item p-3">
-        <div>Participate</div>
-        <div>Have something to say? Join the conversation</div>
-        <button>SUBMIT SUGGESTION</button>
+      <div class="my-3 list-item p-4">
+        <div class="post-header">Participate</div>
+        <div class="post-content pb-3">
+          Have something to say? Join the conversation
+        </div>
+        <button class="sub-button p-2 d-flex align-items-center">
+          <em class="material-icons pr-2">arrow_right_alt</em>
+          <span class="pr-2">SUBMIT SUGGESTION</span>
+        </button>
       </div>
-      <div class="list-item p-3">
-        <div>Buckets</div>
-        <div>Filter posts from various buckets</div>
+      <div class="list-item p-4">
+        <div class="post-header">Buckets</div>
+        <div class="post-content pb-3">Filter posts from various buckets</div>
         <div>All buckets</div>
       </div>
     </div>

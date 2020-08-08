@@ -7,3 +7,41 @@
   box-shadow: 0 8px 20px rgba(0,0,0,.01);
   border-radius: 7px;
 }
+
+.post-header{
+  font-weight: 600;
+}
+
+.post-content{
+  font-size: 14px;
+  color: #77787d;
+}
+
+.post-size{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.feq{
+  color: #6669bc;
+}
+
+.sub-button{
+  border-radius: 4px;
+  border: 0;
+  background-color: #3a42d2;
+  color:#dbe6fd;
+  font-size: 14px;
+}
+
+.arrow{
+  transform: rotate(270deg);
+}
+
+.status{
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #f5d8c1;
+  color: #cb865c;
+  font-weight: 600;
+}
