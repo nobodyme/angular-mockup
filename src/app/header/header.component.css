@@ -1,0 +1,33 @@
+.header{
+  background-color: #3a42d2;
+  color:#dbe6fd;
+}
+
+.logo{
+  width:65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: black;;
+}
+
+.header-input{
+  border-radius: 7px;
+  width: 270px;
+  height: 38px;
+  background-color: #797fdf;
+  font-size: 14px;
+  border: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a3acf5;
+}
+
+.brandname{
+  font-size: large;
+  font-weight: 600;
+}
+
+.logo-content{
+  font-size: 8px;
+}
