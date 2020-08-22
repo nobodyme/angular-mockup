@@ -1,5 +1,4 @@
 .info-account{
-  width: 340px;
   height: 280px;
   background: white;
   border-radius: 10%;
@@ -24,4 +23,35 @@
   height: 60px;
   border: none;
   align-self: flex-end;
+}
+
+.info-chart{
+  height: 280px;
+  background: white;
+  border-radius: 7%;
+  box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+
+.info-chart-graph{
+  height: 100%;
+  width: 2px;
+  background-color: black;
+}
+
+.info-card-text{
+  color: var(--gray700);
+}
+
+.info-card-value{
+  font-size: 24px;
+}
+
+.info-month{
+  align-self: flex-end;
+}
+
+.fake-bar{
+  width: 5px;
+  background: black;
+  height: 100%;
 }

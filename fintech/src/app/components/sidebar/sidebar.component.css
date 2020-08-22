@@ -1,3 +1,24 @@
 .profile_img{
   border-radius: 20%;
 }
+
+.sidebar-name{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar-email{
+  color: var(--gray700);
+}
+
+.sidebar-nav{
+  margin-top: 120px;
+}
+
+.sidebar-title{
+  font-size: 16px;
+}
+
+.sidebar-logout{
+  /* justify-self: end; */
+}
