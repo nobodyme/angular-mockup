@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: .8125rem;
-  background: var(--grey100);
+  background: var(--grey200);
   color: var(--grey900);
 }
 

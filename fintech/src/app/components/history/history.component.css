@@ -2,12 +2,24 @@
   height: 250px;
   width: 180px;
   border-radius: 10%;
-  background-color: pink;
+  border: 2px solid var(--gray300);
+}
+
+.info-card-date{
+  font-size: 18px;
+}
+
+.info-card-text{
+  color: var(--gray700);
+}
+
+.info-card-value{
+  font-size: 24px;
 }
 
 .info-unknown{
   height: 250px;
-  width: 250px;
+  width: 280px;
   border-radius: 10%;
   background: var(--unknown-card);
   color: white;
@@ -16,9 +28,12 @@
 
 .info-unknown-circle{
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  border: 1rem solid var(--teal200);
+  height: 180px;
+  width: 180px;
+  border-right: 0.8rem solid var(--teal200);
+  border-top: 0.8rem solid var(--green500);
+  border-left: 0.8rem solid var(--red400);
+  border-bottom: 0.8rem solid var(--yellow600);
 }
 
 .info-unknown-text > .header{

@@ -1,0 +1,27 @@
+.info-account{
+  width: 340px;
+  height: 280px;
+  background: white;
+  border-radius: 10%;
+  box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+
+.info-account-header{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.info-account-text{
+  color: var(--gray600);
+  font-size: 16px;
+}
+
+.info-account-button{
+  background: black;
+  color: white;
+  border-radius: 20%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  align-self: flex-end;
+}
