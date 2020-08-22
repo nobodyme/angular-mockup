@@ -46,3 +46,19 @@
   color: #cb865c;
   font-weight: 600;
 }
+
+@media (max-width: 1200px){
+  .container{
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .dummy-right{
+   flex-direction: row !important;
+  }
+  .do{
+    margin-right: 20px;
+  }
+}
+
