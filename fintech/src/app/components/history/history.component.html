@@ -1,1 +1,35 @@
-<p>history works!</p>
+<div>
+  <div class="d-flex justify-content-between my-3">
+    <div>Portfolio History</div>
+    <div>Per Industry</div>
+  </div>
+  <div>
+    <div class="d-flex">
+      <div
+        class="info-card d-flex flex-column py-4 px-3 mr-3"
+        *ngFor="let item of [1, 2, 3, 4]"
+      >
+        <div>Nov 19</div>
+        <div>
+          <div>Portfolio Value</div>
+          <div>$ 9864.34</div>
+          <div>234.63 (30.34%)</div>
+        </div>
+      </div>
+      <div
+        class="info-unknown d-flex flex-column justify-content-center align-items-center ml-5"
+      >
+        <div
+          class="info-unknown-circle d-flex p-1 justify-content-center align-items-center"
+        >
+          <div
+            class="info-unknown-text d-flex flex-column align-items-center justify-content-center"
+          >
+            <div class="header">07</div>
+            <div class="text">INDUSTRIES</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

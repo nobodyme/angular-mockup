@@ -1,0 +1,30 @@
+.info-card {
+  height: 250px;
+  width: 180px;
+  border-radius: 10%;
+  background-color: pink;
+}
+
+.info-unknown{
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  background: var(--unknown-card);
+  color: white;
+  font-weight: bold;
+}
+
+.info-unknown-circle{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 1rem solid var(--teal200);
+}
+
+.info-unknown-text > .header{
+  font-size: 25px;
+}
+
+.info-unknown-text > .text{
+  font-size: 14px;
+}

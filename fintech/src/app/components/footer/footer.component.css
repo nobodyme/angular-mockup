@@ -1,0 +1,8 @@
+.footer_label{
+  color: var(--gray500);
+  font-size: 10px;
+}
+
+.footer_value{
+  font-size: 18px;
+}
