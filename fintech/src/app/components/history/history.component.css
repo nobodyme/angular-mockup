@@ -5,6 +5,11 @@
   border: 2px solid var(--gray300);
 }
 
+.info-port{
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .info-card-date{
   font-size: 18px;
 }
@@ -15,6 +20,15 @@
 
 .info-card-value{
   font-size: 24px;
+}
+
+.info-card-stat{
+  font-weight: 600;
+  color: var(--teal500);
+}
+
+.info-card-stat > span{
+  font-size: 0.8rem;
 }
 
 .info-unknown{
