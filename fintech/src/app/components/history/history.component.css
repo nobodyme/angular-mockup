@@ -12,6 +12,14 @@
 
 .info-card-date{
   font-size: 18px;
+  font-weight: 600;
+}
+
+.bar-hor{
+  width: 25px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--gray500);
 }
 
 .info-card-text{

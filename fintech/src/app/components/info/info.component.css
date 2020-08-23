@@ -15,6 +15,15 @@
   font-size: 16px;
 }
 
+.info-card-stat{
+  font-weight: 600;
+  color: var(--teal500);
+}
+
+.info-card-stat > span{
+  font-size: 0.8rem;
+}
+
 .info-account-button{
   background: black;
   color: white;
