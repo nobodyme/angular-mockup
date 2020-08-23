@@ -1,12 +1,14 @@
 <div class="h-100">
-  <div class="container-fluid h-100">
+  <div class="h-100">
     <div class="d-flex h-100">
-      <div class="w-25 h-100">
+      <div class="h-100 sidebar">
         <app-sidebar></app-sidebar>
       </div>
-      <div class="w-75 d-flex flex-column container">
-        <app-header></app-header>
-        <app-info></app-info>
+      <div class="home d-flex flex-column">
+        <div class="home-header d-flex flex-column">
+          <app-header></app-header>
+          <app-info></app-info>
+        </div>
         <app-history></app-history>
         <app-footer></app-footer>
       </div>
