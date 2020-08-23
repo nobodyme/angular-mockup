@@ -5,3 +5,7 @@
 .header-wallet{
   font-weight: 500;
 }
+
+.header-sunny{
+  color: var(--gray600);
+}

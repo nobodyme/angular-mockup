@@ -18,3 +18,10 @@
 .sidebar-title{
   font-size: 16px;
 }
+
+.bar-hor{
+  width: 25px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--red600);
+}
