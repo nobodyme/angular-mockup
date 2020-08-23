@@ -60,11 +60,37 @@
 }
 
 .fake-bar{
-  width: 5px;
-  background: black;
-  height: 100%;
+  width: 6px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.purple-bar{
+  background: var(--unknown-card);
+}
+
+.blue-bar{
+  background: var(--blue400);
+}
+
+.red-bar{
+  background: var(--red600);
 }
 
 .info-month-value{
   color: var(--gray500);
+}
+
+.chat-indicator{
+  justify-self: end;
+}
+
+.indicator-box{
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.indicator-text{
+  color: var(--gray600);
 }

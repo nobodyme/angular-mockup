@@ -33,20 +33,49 @@
       <div>$</div>
     </div>
     <div class="d-flex h-100">
-      <div class="d-flex w-75 info-month">
+      <div class="d-flex w-75 info-month align-items-end">
         <div *ngFor="let item of month" class="py-3 px-2">
-          <div class="fake-bar" [ngStyle]="{ 'max-height.px': 500 }"></div>
+          <div class="mb-2">
+            <div
+              class="fake-bar purple-bar"
+              [ngStyle]="{ 'height.px': getRandomInt(0, 60) }"
+            ></div>
+            <div
+              class="fake-bar blue-bar"
+              [ngStyle]="{ 'height.px': getRandomInt(0, 60) }"
+            ></div>
+            <div
+              class="fake-bar red-bar"
+              [ngStyle]="{ 'height.px': getRandomInt(0, 60) }"
+            ></div>
+          </div>
           <div class="info-month-value">{{ item }}</div>
         </div>
       </div>
-      <div class="w-25">
-        <div class="info-card-text">Portfolio Value</div>
-        <div class="info-card-value">$ 9864.34</div>
-        <div class="info-card-stat">
-          <span class="material-icons">
-            arrow_upward
-          </span>
-          234.63 (30.34%)
+      <div class="w-25 d-flex flex-column justify-content-between">
+        <div>
+          <div class="info-card-text">Portfolio Value</div>
+          <div class="info-card-value">$ 9864.34</div>
+          <div class="info-card-stat">
+            <span class="material-icons">
+              arrow_upward
+            </span>
+            234.63 (30.34%)
+          </div>
+        </div>
+        <div class="chat-indicator py-3">
+          <div class="d-flex align-items-center mb-2">
+            <div class="indicator-box mr-2 purple-bar"></div>
+            <div class="indicator-text">Portfolio</div>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <div class="indicator-box mr-2 blue-bar"></div>
+            <div class="indicator-text">Dollar</div>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="indicator-box mr-2 red-bar"></div>
+            <div class="indicator-text">ETFs</div>
+          </div>
         </div>
       </div>
     </div>
